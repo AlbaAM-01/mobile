@@ -1,0 +1,101 @@
+@media only screen and (min-width: 370px)  {
+    body {
+    background-color:hsl(225, 100%, 94%);
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    }
+   }
+   @media only screen and (min-width: 1440px)  {
+    body {
+    background-color:hsl(225, 100%, 94%);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-position:top ;
+    background-attachment: fixed;
+    }
+   }
+   .first{
+    background-image: url(./images/illustration-hero.svg);
+    background-position: top;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 5%;
+    width: 500px;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .one{
+    font-size:xx-large;
+    color: hsl(223, 47%, 23%);
+    padding-top: 225px;
+    margin-bottom: 15px;
+   }
+   .two{
+    text-align: center;
+    font-size: larger;
+    width: 300px;
+    margin: 0px;
+    line-height: 30px;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 25px;
+    
+   }
+   .four{
+    display: flex;
+    flex-direction: column;
+
+   }
+   .five{
+    display: flex;
+    flex-direction: column;
+   }
+   .six{
+    text-decoration: underline;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-around;
+}
+
+   .second{
+    background-color: hsl(225, 100%, 98%);
+    background-image: url(./images/icon-music.svg);
+    background-position: left;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size:auto;
+    border-radius: 10%;
+    width:400px;
+    height:100px;
+    margin-bottom: 25px;
+   }
+   button{
+    background-color: hsl(245, 75%, 52%)    ;
+    color: white;
+    width: 400px;
+    height: 70px;
+    border-radius: 10%;
+    box-shadow:10px 15px 15px hsl(245, 100%, 94%)
+    ;
+    font-size: larger;
+    border: none;
+    margin-bottom: 5px;
+   }
+   .three{
+    font-size: large;
+    color:  hsl(224, 23%, 55%);
+    display: flex;
+    align-items: flex-end;
+}
+   .attribution{
+    visibility: hidden;
+   }
